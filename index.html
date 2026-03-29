@@ -4,259 +4,70 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>小米商城 - Xiaomi 15、REDMI K80、MIX Fold 4，小米电视官方网站</title>
+  <title>Todo List Online 极简设计的网页版 Todo 清单 - 无需登陆 - By Ricocc</title>
+  <meta name="keywords"
+    content="无需登录, 不用账号,online todo, todo, todo list,在线Todo,网页todo,备忘录, Todo清单, 在线Todo清单,无需注册登陆,极简清单,即开即用,便签, 提醒, 日程, 记事本, 记事, 待办事件,online todolist, online 清单,online 待办事项,极简的待办事项">
   <meta name="description"
-    content="小米官网直营小米公司旗下所有产品，包括Xiaomi手机系列Xiaomi 14、MIX、Redmi 红米系列、Redmi Note 13、K70、电视、笔记本、米家智能家居等，同时提供小米官方服务及售后支持.">
-  <meta name="keywords" content="Xiaomi,redmi,Xiaomi14,Redmi Note 13,Xiaomi MIX Alpha,小米商城">
-
-  <link rel="shortcut icon" href="//s01.mifile.cn/favicon.ico" type="image/x-icon">
-  <link rel="stylesheet" href="./iconfont/iconfont.css">
+    content="一款优秀的设计简洁的online todolist 网页版本应用,极简的待办事项,Todo清单,无需注册,无需登录, 不用账号,数据安全, 存储在H5浏览器本地缓存, 提供工作和生活辅助! 在线Todo清单,免登录,做最好的 online todo list 清单应用.">
   <link rel="stylesheet" href="./css/base.css">
   <link rel="stylesheet" href="./css/index.css">
-  <link rel="stylesheet" href="./css/common.css">
+  <link rel="stylesheet" href="./iconfont/iconfont.css">
+  <link type="favicon" rel="shortcut icon" href="https://todo.uiineed.com/public/img/favicon.png">
 </head>
 
 <body>
-  <!-- 头部导航 -->
-  <div class="nav">
-    <div class="wrapper">
-      <div class="left">
-        <ul>
-          <li><a href="#">小米官网</a></li>
-          <li><a href="#">小米商城</a></li>
-          <li><a href="#">小米澎湃OS</a></li>
-          <li><a href="#">小米汽车</a></li>
-          <li><a href="#">云服务</a></li>
-          <li><a href="#">IoT</a></li>
-          <li><a href="#">有品</a></li>
-          <li><a href="#">小爱开放平台</a></li>
-          <li><a href="#">资质证照</a></li>
-          <li><a href="#">协议规则</a></li>
-          <li><a href="#">下载app</a></li>
-          <li><a href="#">Select Location</a></li>
-        </ul>
+  <div class="wrapper">
+    <div class="left">
+      <!-- 大标题 -->
+      <div class="header">
+        <span class="iconfont icon-lingxing"></span>
+        <span class="iconfont icon-lingxing"></span>
+        <img src="./uploads/todo.svg" alt="">
+        <span class="iconfont icon-lingxing"></span>
+        <span class="iconfont icon-lingxing"></span>
       </div>
-      <div class="right">
-        <ul>
-          <li><a href="#">登录</a></li>
-          <li><a href="#">注册</a></li>
-          <li><a href="#">消息通知</a></li>
-        </ul>
-        <div class="car"><a href="%"><span class="iconfont icon-xiaomigouwuche"></span>购物车（0）</a></div>
-      </div>
-    </div>
-  </div>
-  <!-- 头部 -->
-  <div class="header">
-    <div class="wrapper">
-      <div class="logo"><a href="#"><img src="./images/logo.png" alt=""></a></div>
-      <div class="column">
-        <ul>
-          <li><a href="#">Xioami手机</a></li>
-          <li><a href="#">REDMI手机</a></li>
-          <li><a href="#">电视</a></li>
-          <li><a href="#">笔记本</a></li>
-          <li><a href="#">平板</a></li>
-          <li><a href="#">家电</a></li>
-          <li><a href="#">路由器</a></li>
-          <li><a href="#">服务中心</a></li>
-          <li><a href="#">社区</a></li>
-        </ul>
-      </div>
+
+      <!-- 搜索框 -->
       <div class="search">
-        <input type="text" placeholder="手表">
-        <span class="iconfont icon-sousuo"></span>
+        <input type="text" placeholder="新增待办事项...">
+        <button type="submit">提交</button>
       </div>
-    </div>
-  </div>
-  <!-- 轮播图 -->
-  <div class="carousel">
-    <div class="wrapper">
-      <!-- 轮播图片 -->
-      <div class="pic">
-        <ul>
-          <li><a href="#"><img src="./uploads/9e4c05da78b875be3cab3753dd15fdb6.jpg" alt=""></a></li>
-          <li><a href="#"><img src="./uploads/a6af8b8a35fa164ba06511e903fc8e40.jpg" alt=""></a></li>
-          <li><a href="#"><img src="./uploads/3e47a9c0d2a8929fccbbef3d13e703e8.jpg" alt=""></a></li>
-          <li><a href="#"><img src="./uploads/b4895cca4e2b341527d6ef7d33847597.jpg" alt=""></a></li>
-          <li><a href="#"><img src="./uploads/d204d10f9d13ed32753b9296fa2ef101.jpg" alt=""></a></li>
-          <li><a href="#"><img src="./uploads/3622678ff349f0d927336a6e4a4257ad.jpg" alt=""></a></li>
-        </ul>
-      </div>
-      <!-- 左边导航 -->
-      <div class="column">
-        <ul>
-          <li><a href="#">
-              <p>手机</p><span>&gt;</span>
-            </a></li>
-          <li><a href="#">
-              <p>电视</p><span>&gt;</span>
-            </a></li>
-          <li><a href="#">
-              <p>家电</p><span>&gt;</span>
-            </a></li>
-          <li><a href="#">
-              <p>笔记本 平板 显示器</p><span>&gt;</span>
-            </a></li>
-          <li><a href="#">
-              <p>出行 穿戴</p><span>&gt;</span>
-            </a></li>
-          <li><a href="#">
-              <p>耳机 音箱</p><span>&gt;</span>
-            </a></li>
-          <li><a href="#">
-              <p>健康 儿童</p><span>&gt;</span>
-            </a></li>
-          <li><a href="#">
-              <p>生活 箱包</p><span>&gt;</span>
-            </a></li>
-          <li><a href="#">
-              <p>智能 路由器</p><span>&gt;</span>
-            </a></li>
-          <li><a href="#">
-              <p>电源 配件</p><span>&gt;</span>
-            </a></li>
-        </ul>
-      </div>
-      <!-- 左箭头 -->
-      <div class="left">
-        <a href="#"><span class="iconfont icon-xiangqian"></span></a>
-      </div>
-      <!-- 右箭头 -->
-      <div class="right">
-        <a href="#"><span class="iconfont icon-xianghou"></span></a>
-      </div>
-      <!-- 小圆点 -->
-      <div class="point">
-        <ul>
-          <li><a href="#"></a></li>
-          <li><a href="#"></a></li>
-          <li><a href="#"></a></li>
-          <li><a href="#"></a></li>
-          <li><a href="#" class="active"></a></li>
-          <li><a href="#"></a></li>
-        </ul>
-      </div>
-    </div>
-  </div>
-  <!-- banner -->
-  <div class="banner">
-    <div class="wrapper">
-      <div class="left">
-        <ul>
-          <li><a href="#" class="iconfont icon-shijian">
-              <p>保障服务</p>
-            </a></li>
-          <li><a href="#" class="iconfont icon-qiyetuangou">
-              <p>企业团购</p>
-            </a></li>
-          <li><a href="#" class="iconfont icon-Fma">
-              <p>F码通道</p>
-            </a></li>
-          <li><a href="#" class="iconfont icon-mifenka">
-              <p>米粉卡</p>
-            </a></li>
-          <li><a href="#" class="iconfont icon-yijiuhuanxin">
-              <p>以旧换新</p>
-            </a></li>
-          <li><a href="#" class="iconfont icon-huafei">
-              <p>话费充值</p>
-            </a></li>
-        </ul>
-      </div>
-      <a href="#"><img src="./uploads/e981f78d2ac17c504975a719cb8b069d.png" alt=""></a>
-      <a href="#"><img src="./uploads/8aa523aada018ed7e291b8d5c99d5cc7.png" alt=""></a>
-      <a href="#"><img src="./uploads/ce384835b97655abd1448f3e45eb48ff.png" alt=""></a>
-    </div>
-  </div>
-  <!-- mag -->
-  <div class="mag">
-    <div class="wrapper">
-      <a href="#"></a>
-    </div>
-  </div>
-  <!-- phone -->
-  <div class="phone">
-    <div class="wrapper">
-      <div class="more">
-        <h3>手机</h3>
-        <a href="#">
-          <p>查看更多</p>
-          <span class="iconfont icon-xianghou"></span>
-        </a>
-      </div>
-      <div class="pic2">
-        <div class="left">
-          <a href="#"><img src="./uploads/55d2e50dd3783b52244ea3938e9dfca7.png" alt=""></a>
-        </div>
-        <div class="right">
+
+      <!-- 主体 -->
+      <div class="add-content">
+        <div class="finish">
           <a href="#">
-            <img src="./uploads/fe39602d3ffa85c84e0410d90b48851e.png" alt="">
-            <h3>REDMI Turbo 5 MAX </h3>
-            <p>天玑 9500s | 9000mAh 最大小米电池 </p>
-            <ul>
-              <li>2199元起</li>
-              <li>2499元</li>
-            </ul>
+            <h3>全部标为完成</h3>
           </a>
           <a href="#">
-            <img src="./uploads/fc2959f6f1978a53b3d200e0bed14fd0.png" alt="">
-            <h3>REDMI Turbo 5 MAX </h3>
-            <p>天玑 9500s | 9000mAh 最大小米电池 </p>
-            <ul>
-              <li>1999元起</li>
-              <li>2299元</li>
-            </ul>
-          </a>
-          <a href="#">
-            <img src="./uploads/202512231005_1b9790102758c427210494e33c68b094.png" alt="">
-            <h3>REDMI Turbo 5 MAX </h3>
-            <p>天玑 9500s | 9000mAh 最大小米电池 </p>
-            <ul>
-              <li>7999元起</li>
-            </ul>
-          </a>
-          <a href="#">
-            <img src="./uploads/202512231000_b1a59ac062a344467543e206a6073c57.png" alt="">
-            <h3>REDMI Turbo 5 MAX </h3>
-            <p>天玑 9500s | 9000mAh 最大小米电池 </p>
-            <ul>
-              <li>6999元起</li>
-            </ul>
-          </a>
-          <a href="#">
-            <img src="./uploads/202510211539_ef4103335f09e9897ef1c4e94bdf790e.png" alt="">
-            <h3>REDMI Turbo 5 MAX </h3>
-            <p>天玑 9500s | 9000mAh 最大小米电池 </p>
-            <ul>
-              <li>3999元起</li>
-            </ul>
-          </a>
-          <a href="#">
-            <img src="./uploads/202510211511_3dc87a6b7771972fb98e8388e8b5b360.png" alt="">
-            <h3>REDMI Turbo 5 MAX </h3>
-            <p>天玑 9500s | 9000mAh 最大小米电池 </p>
-            <ul>
-              <li>2599元起</li>
-            </ul>
-          </a>
-          <a href="#">
-            <img src="./uploads/202509222138_488a3091be5bacbc236496b17f025f97.png" alt="">
-            <h3>REDMI Turbo 5 MAX </h3>
-            <p>天玑 9500s | 9000mAh 最大小米电池 </p>
-            <ul>
-              <li>5999元起</li>
-            </ul>
-          </a>
-          <a href="#">
-            <img src="./uploads/202509232019_c599441b7cce5783aa10997a8a1489cc.png" alt="">
-            <h3>REDMI Turbo 5 MAX </h3>
-            <p>天玑 9500s | 9000mAh 最大小米电池 </p>
-            <ul>
-              <li>4999元起</li>
-            </ul>
+            <p>今日事今日毕，勿将今事待明日！<span class="iconfont icon-todo-line"></span></p>
           </a>
         </div>
+        <div class="todo-list">
+          <ul>
+            <li>
+              <div class="content"><strong></strong>111</div>
+              <div class="cha"><span class="iconfont icon-chacha"></span></div>
+            </li>
+          </ul>
+        </div>
+        <div class="no-finish">
+          剩余1项未完成
+        </div>
+      </div>
+    </div>
+
+    <div class="right">
+      <div class="list">
+        <ul>
+          <li><a href="#">开<span class="iconfont icon-shoucang"></span></a></li>
+          <li><a href="#">全部</a></li>
+          <li><a href="#">回收站</a></li>
+          <li><a href="#">全部标为已完成</a></li>
+          <li><a href="#">清除全部</a></li>
+          <li><a href="#">导出数据</a></li>
+          <li><a href="#">导入(txt/json)</a></li>
+        </ul>
       </div>
     </div>
   </div>
